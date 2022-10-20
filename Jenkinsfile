@@ -6,7 +6,12 @@ pipeline {
                     sh "chmod +x ./gradlew"
                     sh "./gradlew compileJava"
                } 
-          } 
+          }
+          stage("Build") {
+                steps {
+                    sh "./gradlew clean"
+                }
+          }
           stage("Unit test") { 
                steps { 
                     sh "./gradlew test"
