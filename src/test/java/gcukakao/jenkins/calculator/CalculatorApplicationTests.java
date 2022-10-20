@@ -8,7 +8,6 @@ class CalculatorApplicationTests {
 
 	@Test
 	void contextLoads() {
-		CalculatorTest
 	}
 
 }
