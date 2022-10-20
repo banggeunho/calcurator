@@ -3,12 +3,12 @@ pipeline {
      stages { 
           stage("Compile") { 
                steps { 
-                    sh "sudo ./gradlew compileJava"
+                    sh "./gradlew compileJava"
                } 
           } 
           stage("Unit test") { 
                steps { 
-                    sh "sudo ./gradlew test"
+                    sh "./gradlew test"
                } 
           } 
      } 
