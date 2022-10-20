@@ -13,7 +13,7 @@ public class CalTest {
     }
 
     @Test
-    public void testSub() {assertEquals(3, calculator.sub(3, 2));}
+    public void testSub() {assertEquals(1, calculator.sub(3, 2));}
 
     @Test
     public void testMul() { assertEquals(10, calculator.mul(2, 5));}
