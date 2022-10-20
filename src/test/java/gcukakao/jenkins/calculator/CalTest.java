@@ -15,7 +15,7 @@ public class CalTest {
 
     @DisplayName("빼기")
     @Test
-    public void testSub() {assertEquals(1, calculator.sub(3, 2));}
+    public void testSub() {assertEquals(3, calculator.sub(3, 2));}
 
     @DisplayName("곱하기")
     @Test
@@ -23,5 +23,5 @@ public class CalTest {
 
     @DisplayName("나누기")
     @Test
-    public void testDiv() { assertEquals(6, calculator.div(12,2));}
+    public void testDiv() { assertEquals(4, calculator.div(12,2));}
 }
