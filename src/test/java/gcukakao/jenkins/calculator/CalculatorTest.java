@@ -2,9 +2,11 @@ package gcukakao.jenkins.calculator;
 import org.junit.Test;
 
 import gcukakao.jenkins.calculator.Calculator;
+import org.springframework.boot.test.context.SpringBootTest;
 
 import static org.junit.Assert.assertEquals; 
- 
+
+@SpringBootTest
 public class CalculatorTest { 
      private Calculator calculator = new Calculator();
  
